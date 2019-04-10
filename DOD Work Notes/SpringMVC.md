@@ -32,13 +32,12 @@ boolean preHandle(HttpServletRequest request, HeepServletResponse response, Obje
 * 帮助DispatcherServlet获取正确的Controller
 
 ### HandlerExecutionChain
-
-> |--------------------|
-> | HandlerInterceptor |
-> ||------------------||
-> ||    Controller    ||
-> ||------------------||
-> |--------------------|
+    |--------------------|
+    | HandlerInterceptor |
+    ||------------------||
+    ||    Controller    ||
+    ||------------------||
+    |--------------------|
 
 * Excution Chain: preHandle -> Controller method -> postHandle -> afterCompletion
 
@@ -53,3 +52,7 @@ boolean preHandle(HttpServletRequest request, HeepServletResponse response, Obje
 ### View
 
 * 呈现页面
+
+![ExecutionChain](ExecutionChain.jpg)
+![ExecutionChainOfficial](ExecutionChainOfficial.jpg)
+                                        
