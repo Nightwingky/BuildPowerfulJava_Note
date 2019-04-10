@@ -1,4 +1,4 @@
-# 2019年4月Java学习笔记
+# 一个Java菜鸡的自我修炼笔记
 
-* 经过几番波折，终于有时间可以修炼Java功力，从LeetCode最简单的题目开始学习，希望能坚持。
-* 代码在这里 [https://github.com/Nightwingky/LeetCodeJava_Code](https://github.com/Nightwingky/LeetCodeJava_Code)
+* 经过几番波折，终于有时间可以修炼Java功力。修炼通过两方面，一是从DataWindow项目中学习，二是从LeetCode学习，稳步提升
+* LeetCode学习代码在这里 [https://github.com/Nightwingky/LeetCodeJava_Code](https://github.com/Nightwingky/LeetCodeJava_Code)
