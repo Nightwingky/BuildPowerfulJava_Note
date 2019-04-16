@@ -12,7 +12,7 @@
 
 ### Coordinates
 
-* groupId, artifactId, version, packaging构成坐标，唯一标识一个包
+* groupId, artifactId, version,` packaging构成坐标，唯一标识一个包
 
 ## 在IntelliJ中使用Maven创建SpringMVC项目
 

@@ -55,4 +55,35 @@ boolean preHandle(HttpServletRequest request, HeepServletResponse response, Obje
 
 ![ExecutionChain](ExecutionChain.jpg)
 ![ExecutionChainOfficial](ExecutionChainOfficial.jpg)
-                                        
+
+## SpringMVC demo
+
+### 1. 配置文件
+
+#### web.xml
+
+#### controller
+
+```java
+
+public class CourseController {
+    
+    //日志记录
+    private static Logger log = LoggerFactory.getLogger(CourseCOntroller.class)
+
+    private CourseService courseService;
+
+    @Autowired
+    public void setCourseService(CourseService courseService) {
+        this.courseService = courseService;
+    }
+
+    public String viewCourse(Integer courseId, Model model) {
+        Course course = courseService.getCoursebyId(courseId);
+        model.addAttribute(course);
+
+        return "course_overview";
+    }
+}
+
+```
